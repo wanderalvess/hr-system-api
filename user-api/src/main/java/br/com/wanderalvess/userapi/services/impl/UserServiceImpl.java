@@ -25,7 +25,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User findById(Long id) {
-        log.info("PAYROLL_SERVICE ::: Get request on " + env.getProperty("local.server.port") + " port" );
+        log.info("USER_SERVICE ::: Get request on " + env.getProperty("local.server.port") + " port" );
         return repository.findById(id).orElseThrow(() -> new ObjectNotFoundException("Objeto não encontrado"));
     }
 
