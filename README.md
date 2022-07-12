@@ -12,7 +12,9 @@ Sistema de pagamento de usuário via api
     - docker-compose up
  
 - ***Exemplo de requisição Get:***
+  
   - Pelo Postman:
+    - localhost:8765/payroll-api/api/payments/1
     - {"description": "Pagamento", "workedHours": 200.0 }
     
 - ***Exemplo de retorno:***
